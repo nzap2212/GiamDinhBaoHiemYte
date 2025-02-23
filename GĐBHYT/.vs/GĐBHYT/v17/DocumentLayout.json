@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\pages\\quanlyhoso130.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\pages\\quanlyhoso130.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Quanlyhoso130.xaml",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\Quanlyhoso130.xaml",
+              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\Pages\\Quanlyhoso130.xaml",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\Quanlyhoso130.xaml",
+              "RelativeToolTip": "G\u0110BHYT.UI\\Pages\\Quanlyhoso130.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-23T07:52:41.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

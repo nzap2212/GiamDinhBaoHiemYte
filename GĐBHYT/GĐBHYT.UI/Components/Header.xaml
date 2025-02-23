@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="GĐBHYT.UI.Components.Header"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GĐBHYT.UI.Components"
+             mc:Ignorable="d" >
+    <materialDesign:ColorZone            
+        Mode="Inverted"
+        Padding="16">
+        <DockPanel>
+            <materialDesign:PopupBox
+                DockPanel.Dock="Right"
+                Foreground="#fff"
+                PlacementMode="BottomAndAlignRightEdges">
+                <ListBox Background="#1d2939" Foreground="#fff" BorderThickness="1" BorderBrush="DarkGray">
+                    <ListBoxItem>
+                        Email
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        Bệnh viện
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        Vai trò người dùng
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        Đổi mật khẩu
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        Đăng xuất
+                    </ListBoxItem>
+                </ListBox>
+            </materialDesign:PopupBox>
+
+
+            <StackPanel Orientation="Horizontal" Width="auto">
+                <TextBlock
+                    VerticalAlignment="Center" Foreground="#fff"
+                    FontSize="25"
+                    Margin="16 0 0 0">
+                    Giám định bảo hiểm y tế
+                </TextBlock>
+            </StackPanel>
+
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Right"
+                       FontSize="16"
+                       Foreground="#fff"
+                       Text="UserName" 
+                       />
+        </DockPanel>
+    </materialDesign:ColorZone>
+</UserControl>
