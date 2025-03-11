@@ -37,3 +37,6 @@ D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\bin\Debug\ne
 D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
 D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\Components\LineChart.g.cs
 D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\Components\LineChart.baml
+D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\Pages\Quanlyhoso130.g.cs
+D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\Pages\Quanlyhoso130.baml
+D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\GĐBHYT.UI.sourcelink.json

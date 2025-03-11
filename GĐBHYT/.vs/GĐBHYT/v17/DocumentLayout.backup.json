@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\components\\linechart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\components\\linechart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\components\\linechart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\components\\linechart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\viewmodels\\chartsviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\viewmodels\\chartsviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,61 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 196,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChartsViewModels.cs",
-              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\ViewModels\\ChartsViewModels.cs",
-              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\ViewModels\\ChartsViewModels.cs",
-              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\ViewModels\\ChartsViewModels.cs",
-              "RelativeToolTip": "G\u0110BHYT.UI\\ViewModels\\ChartsViewModels.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAIwEEAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T10:52:32.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LineChart.xaml.cs",
-              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Components\\LineChart.xaml.cs",
-              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\Components\\LineChart.xaml.cs",
-              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Components\\LineChart.xaml.cs",
-              "RelativeToolTip": "G\u0110BHYT.UI\\Components\\LineChart.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T10:48:18.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LineChart.xaml",
-              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Components\\LineChart.xaml",
-              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\Components\\LineChart.xaml",
-              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Components\\LineChart.xaml",
-              "RelativeToolTip": "G\u0110BHYT.UI\\Components\\LineChart.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-21T10:50:53.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "mainPage.xaml",
-              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\mainPage.xaml",
-              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\Pages\\mainPage.xaml",
-              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\mainPage.xaml",
-              "RelativeToolTip": "G\u0110BHYT.UI\\Pages\\mainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-21T10:41:34.084Z",
-              "EditorCaption": ""
             }
           ]
         }

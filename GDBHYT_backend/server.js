@@ -1,28 +1,18 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const routes = require('./routes/routes');
-const app = express()
+// 
 
-// Middleware
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+const WebSocket = require('ws');
 
-// Cấu hình CORS
-app.use(cors());
+const server = new WebSocket.Server({ port: 3000 });
 
-// Hoặc cấu hình cụ thể cho từng origin
-app.use(cors({
-    origin: ['http://tracking.zigisoft.com', 'http://localhost:3000'], // Thay bằng địa chỉ frontend
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization']
-}));
+server.on('connection', (ws) => {
+    console.log("✅ Client đã kết nối!");
 
+    // Gửi yêu cầu truy vấn SQL
+    ws.send(JSON.stringify({ query: "SELECT * FROM Users" }));
 
-//sử dụng routes
-app.use('/', routes)
-
-const PORT = 3001;
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    ws.on('message', (message) => {
+        console.log("📩 Nhận phản hồi từ Windows Service:", message);
+    });
 });
+
+console.log("🔵 WebSocket Server chạy trên ws://localhost:3000");
