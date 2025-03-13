@@ -37,7 +37,8 @@
             </Button>
 
             <!-- slideBar -->
-            <Components:SlideBar Grid.Row="1"
+            <Components:SlideBar x:Name="sideBar"
+                                 Grid.Row="1"
                                  Background="#1d2939" />
         </Grid>
 
@@ -46,14 +47,13 @@
                 <RowDefinition Height="60" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            
-            <!-- Header -->
-            <Components:Header Background="#1d2939" />
-            
-            <!-- Page -->
-            <Page:mainPage Grid.Row="1"/>
-        </Grid>
 
+            <!-- Header -->
+            <Components:Header x:Name="header" Background="#1d2939" />
+
+            <!-- Page -->
+            <ContentControl x:Name="contentFrame" Grid.Row="1"/>
+        </Grid>
 
     </Grid>
 

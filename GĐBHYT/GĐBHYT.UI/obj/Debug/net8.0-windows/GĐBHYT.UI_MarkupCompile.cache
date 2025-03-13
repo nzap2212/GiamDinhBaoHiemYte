@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\App.xaml
-71933017367
+99247497
 
-11-617713860
+181581779355
 2032074085229
-Components\Header.xaml;Components\LineChart.xaml;Components\ReportInfo.xaml;Components\SlideBar.xaml;MainWindow.xaml;Pages\mainPage.xaml;Pages\Quanlyhoso130.xaml;
+Components\Header.xaml;Components\LineChart.xaml;Components\ReportInfo.xaml;Components\SlideBar.xaml;MainWindow.xaml;Pages\CapNhatHoSo130.xaml;Pages\mainPage.xaml;Pages\Quanlyhoso130.xaml;Pages\TheoDoi130NoiTru.xaml;
 
 False
 

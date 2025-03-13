@@ -33,13 +33,26 @@
                 </ListBox>
             </materialDesign:PopupBox>
 
-
             <StackPanel Orientation="Horizontal" Width="auto">
                 <TextBlock
                     VerticalAlignment="Center" Foreground="#fff"
                     FontSize="25"
                     Margin="16 0 0 0">
                     Giám định bảo hiểm y tế
+                </TextBlock>
+                
+                <TextBlock
+                    VerticalAlignment="Center" Foreground="#fff"
+                    FontSize="25"
+                    Margin="10 0 10 0">
+                    -
+                </TextBlock>
+                
+                <TextBlock x:Name="PageTitleText"
+                    VerticalAlignment="Center" Foreground="#fff"
+                    FontSize="20"
+                    Margin="0 0 0 0">
+                    Trang chủ
                 </TextBlock>
             </StackPanel>
 

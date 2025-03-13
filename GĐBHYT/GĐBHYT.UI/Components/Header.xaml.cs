@@ -24,5 +24,17 @@ namespace GĐBHYT.UI.Components
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// Cập nhật tiêu đề trang hiển thị trên header
+        /// </summary>
+        /// <param name="pageTitle">Tên trang cần hiển thị</param>
+        public void UpdatePageTitle(string pageTitle)
+        {
+            if (PageTitleText != null)
+            {
+                PageTitleText.Text = pageTitle;
+            }
+        }
     }
 }

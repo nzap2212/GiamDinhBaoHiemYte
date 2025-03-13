@@ -40,3 +40,7 @@ D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\ne
 D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\Pages\Quanlyhoso130.g.cs
 D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\Pages\Quanlyhoso130.baml
 D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\GĐBHYT.UI.sourcelink.json
+D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\Pages\CapNhatHoSo130.g.cs
+D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\Pages\CapNhatHoSo130.baml
+D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\Pages\TheoDoi130NoiTru.g.cs
+D:\Hospital-TĐ-UB\Cảnh báo BHYT\GiamDInhBHYT\GĐBHYT\GĐBHYT.UI\obj\Debug\net8.0-windows\Pages\TheoDoi130NoiTru.baml

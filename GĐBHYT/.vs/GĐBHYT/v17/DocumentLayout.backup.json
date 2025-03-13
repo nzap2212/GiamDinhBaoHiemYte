@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\pages\\theodoi130noitru.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\pages\\theodoi130noitru.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\pages\\theodoi130noitru.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\pages\\theodoi130noitru.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\pages\\quanlyhoso130.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\pages\\quanlyhoso130.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\services\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\services\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\models\\navigationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\models\\navigationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\g\u0111bhyt\\g\u0111bhyt.ui\\pages\\capnhathoso130.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC603793-958D-44AA-AB13-D8DAE645A58D}|G\u0110BHYT.UI\\G\u0110BHYT.UI.csproj|solutionrelative:g\u0111bhyt.ui\\pages\\capnhathoso130.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 196,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TheoDoi130NoiTru.xaml",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\TheoDoi130NoiTru.xaml",
+              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\Pages\\TheoDoi130NoiTru.xaml",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\TheoDoi130NoiTru.xaml",
+              "RelativeToolTip": "G\u0110BHYT.UI\\Pages\\TheoDoi130NoiTru.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T10:09:25.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TheoDoi130NoiTru.xaml.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\TheoDoi130NoiTru.xaml.cs",
+              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\Pages\\TheoDoi130NoiTru.xaml.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\TheoDoi130NoiTru.xaml.cs",
+              "RelativeToolTip": "G\u0110BHYT.UI\\Pages\\TheoDoi130NoiTru.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:08:55.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavigationManager.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Services\\NavigationManager.cs",
+              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\Services\\NavigationManager.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Services\\NavigationManager.cs",
+              "RelativeToolTip": "G\u0110BHYT.UI\\Services\\NavigationManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:01:46.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavigationItem.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Models\\NavigationItem.cs",
+              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\Models\\NavigationItem.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Models\\NavigationItem.cs",
+              "RelativeToolTip": "G\u0110BHYT.UI\\Models\\NavigationItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T09:58:38.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "G\u0110BHYT.UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T09:44:06.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Quanlyhoso130.xaml",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\Quanlyhoso130.xaml",
+              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\Pages\\Quanlyhoso130.xaml",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\Quanlyhoso130.xaml",
+              "RelativeToolTip": "G\u0110BHYT.UI\\Pages\\Quanlyhoso130.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T09:16:25.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CapNhatHoSo130.xaml",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\CapNhatHoSo130.xaml",
+              "RelativeDocumentMoniker": "G\u0110BHYT.UI\\Pages\\CapNhatHoSo130.xaml",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\G\u0110BHYT\\G\u0110BHYT.UI\\Pages\\CapNhatHoSo130.xaml",
+              "RelativeToolTip": "G\u0110BHYT.UI\\Pages\\CapNhatHoSo130.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T09:10:01.203Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -4,8 +4,404 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:GĐBHYT.UI.Pages"
-             mc:Ignorable="d" >
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Tiêu đề trang -->
+        <Grid Grid.Row="0" Background="#0078D7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
             
+            <TextBlock Text="Quản lý Hồ Sơ 130" 
+                       FontSize="18" 
+                       FontWeight="Bold" 
+                       Foreground="White"
+                       Margin="10,10,0,10"/>
+            
+            <StackPanel Grid.Column="1" Orientation="Horizontal">
+                <TextBlock Text="Trang chủ" 
+                           Foreground="White" 
+                           VerticalAlignment="Center" 
+                           Margin="0,0,5,0"/>
+                <TextBlock Text=">" 
+                           Foreground="White" 
+                           VerticalAlignment="Center" 
+                           Margin="0,0,5,0"/>
+                <TextBlock Text="Quản lý Hồ Sơ 130" 
+                           Foreground="White" 
+                           VerticalAlignment="Center" 
+                           Margin="0,0,10,0"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Bộ lọc tìm kiếm -->
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Hàng 1 -->
+            <TextBlock Grid.Row="0" Grid.Column="0" 
+                       Text="Ngày ra" 
+                       HorizontalAlignment="Right" 
+                       VerticalAlignment="Center"
+                       Margin="0,0,10,0"/>
+            
+            <Grid Grid.Row="0" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <DatePicker Grid.Column="0" 
+                            materialDesign:HintAssist.Hint="dd/mm/yyyy"/>
+                
+                <TextBlock Grid.Column="1" 
+                           Text="đến" 
+                           VerticalAlignment="Center"
+                           Margin="10,0"/>
+                
+                <DatePicker Grid.Column="2" 
+                            materialDesign:HintAssist.Hint="dd/mm/yyyy"/>
+            </Grid>
+
+            <TextBlock Grid.Row="0" Grid.Column="2" 
+                       Text="Khoa" 
+                       HorizontalAlignment="Right" 
+                       VerticalAlignment="Center"
+                       Margin="0,0,10,0"/>
+            
+            <ComboBox Grid.Row="0" Grid.Column="3">
+                <ComboBoxItem Content="Khoa Nội"/>
+                <ComboBoxItem Content="Khoa Ngoại"/>
+                <ComboBoxItem Content="Khoa Sản"/>
+                <ComboBoxItem Content="Khoa Nhi"/>
+            </ComboBox>
+
+            <!-- Hàng 2 -->
+            <TextBlock Grid.Row="1" Grid.Column="0" 
+                       Text="Ngày vào" 
+                       HorizontalAlignment="Right" 
+                       VerticalAlignment="Center"
+                       Margin="0,10,10,0"/>
+            
+            <Grid Grid.Row="1" Grid.Column="1" Margin="0,10,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <DatePicker Grid.Column="0" 
+                            materialDesign:HintAssist.Hint="dd/mm/yyyy"/>
+                
+                <TextBlock Grid.Column="1" 
+                           Text="đến" 
+                           VerticalAlignment="Center"
+                           Margin="10,0"/>
+                
+                <DatePicker Grid.Column="2" 
+                            materialDesign:HintAssist.Hint="dd/mm/yyyy"/>
+            </Grid>
+
+            <TextBlock Grid.Row="1" Grid.Column="2" 
+                       Text="Loại KCB" 
+                       HorizontalAlignment="Right" 
+                       VerticalAlignment="Center"
+                       Margin="0,10,10,0"/>
+            
+            <ComboBox Grid.Row="1" Grid.Column="3" 
+                      Margin="0,10,0,0">
+                <ComboBoxItem Content="Tất cả"/>
+                <ComboBoxItem Content="Khám bệnh"/>
+                <ComboBoxItem Content="Điều trị ngoại trú"/>
+                <ComboBoxItem Content="Điều trị nội trú"/>
+            </ComboBox>
+
+            <!-- Hàng 3 -->
+            <TextBlock Grid.Row="2" Grid.Column="0" 
+                       Text="Ngày tạo/ Chấm công" 
+                       HorizontalAlignment="Right" 
+                       VerticalAlignment="Center"
+                       TextWrapping="Wrap"
+                       Margin="0,10,10,0"/>
+            
+            <Grid Grid.Row="2" Grid.Column="1" Margin="0,10,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <DatePicker Grid.Column="0" 
+                            materialDesign:HintAssist.Hint="dd/mm/yyyy"/>
+                
+                <TextBlock Grid.Column="1" 
+                           Text="đến" 
+                           VerticalAlignment="Center"
+                           Margin="10,0"/>
+                
+                <DatePicker Grid.Column="2" 
+                            materialDesign:HintAssist.Hint="dd/mm/yyyy"/>
+            </Grid>
+
+            <TextBlock Grid.Row="2" Grid.Column="2" 
+                       Text="Lỗi" 
+                       HorizontalAlignment="Right" 
+                       VerticalAlignment="Center"
+                       Margin="0,10,10,0"/>
+            
+            <TextBox Grid.Row="2" Grid.Column="3" 
+                     Margin="0,10,0,0"/>
+
+            <!-- Hàng 4 -->
+            <TextBlock Grid.Row="3" Grid.Column="0" 
+                       Text="Ngày TT" 
+                       HorizontalAlignment="Right" 
+                       VerticalAlignment="Center"
+                       Margin="0,10,10,0"/>
+            
+            <Grid Grid.Row="3" Grid.Column="1" Margin="0,10,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <DatePicker Grid.Column="0" 
+                            materialDesign:HintAssist.Hint="dd/mm/yyyy"/>
+                
+                <TextBlock Grid.Column="1" 
+                           Text="đến" 
+                           VerticalAlignment="Center"
+                           Margin="10,0"/>
+                
+                <DatePicker Grid.Column="2" 
+                            materialDesign:HintAssist.Hint="dd/mm/yyyy"/>
+            </Grid>
+
+            <TextBlock Grid.Row="3" Grid.Column="2" 
+                       Text="Trạng thái" 
+                       HorizontalAlignment="Right" 
+                       VerticalAlignment="Center"
+                       Margin="0,10,10,0"/>
+            
+            <ComboBox Grid.Row="3" Grid.Column="3" 
+                      Margin="0,10,0,0">
+                <ComboBoxItem Content="Tất cả mọi hồ sơ"/>
+                <ComboBoxItem Content="Đã duyệt"/>
+                <ComboBoxItem Content="Chờ duyệt"/>
+                <ComboBoxItem Content="Từ chối"/>
+            </ComboBox>
+
+            <!-- Hàng 5 - Nút lọc và báo cáo -->
+            <StackPanel Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" 
+                        Orientation="Horizontal" 
+                        Margin="0,20,0,0">
+                <Button Content="Áp Bộ lọc" 
+                        Background="#333333" 
+                        Foreground="White"
+                        Margin="0,0,10,0"/>
+                
+                <Button Content="Xóa HS trùng" 
+                        Background="#FFC107" 
+                        Foreground="Black"/>
+            </StackPanel>
+
+            <TextBlock Grid.Row="4" Grid.Column="2" 
+                       Text="Tải báo cáo:" 
+                       HorizontalAlignment="Right" 
+                       VerticalAlignment="Center"
+                       Margin="0,20,10,0"/>
+            
+            <StackPanel Grid.Row="4" Grid.Column="3" 
+                        Orientation="Horizontal" 
+                        Margin="0,20,0,0">
+                <Button Content="BC Tổng hợp" 
+                        Background="#0078D7" 
+                        Foreground="White"
+                        Margin="0,0,5,0"/>
+                
+                <Button Content="BC Trùng DV" 
+                        Background="#0078D7" 
+                        Foreground="White"
+                        Margin="0,0,5,0"/>
+                
+                <Button Content="BC Thuốc &amp; VT" 
+                        Background="#0078D7" 
+                        Foreground="White"
+                        Margin="0,0,5,0"/>
+                
+                <Button Content="BC Chỉ định" 
+                        Background="#0078D7" 
+                        Foreground="White"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Danh sách hồ sơ -->
+        <Grid Grid.Row="2" Margin="10,0,10,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Hiển thị số lượng và tìm kiếm -->
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" 
+                           Text="Hiển thị" 
+                           VerticalAlignment="Center"
+                           Margin="0,0,5,0"/>
+                
+                <ComboBox Grid.Column="1" 
+                          Width="80" 
+                          HorizontalAlignment="Left">
+                    <ComboBoxItem Content="200" IsSelected="True"/>
+                </ComboBox>
+                
+                <TextBlock Grid.Column="2" 
+                           Text="Tìm kiếm" 
+                           VerticalAlignment="Center"
+                           Margin="0,0,5,0"/>
+                
+                <TextBox Grid.Column="3" 
+                         Width="200"/>
+            </Grid>
+
+            <!-- Bảng dữ liệu với thanh cuộn ngang -->
+            <ScrollViewer Grid.Row="1" 
+                          Margin="0,10,0,0"
+                          HorizontalScrollBarVisibility="Auto"
+                          VerticalScrollBarVisibility="Auto">
+                <DataGrid AutoGenerateColumns="False"
+                          IsReadOnly="True"
+                          GridLinesVisibility="All"
+                          BorderThickness="1"
+                          BorderBrush="Gray"
+                          AlternatingRowBackground="#F5F5F5"
+                          CanUserSortColumns="True"
+                          CanUserResizeColumns="True"
+                          HeadersVisibility="All"
+                          HorizontalScrollBarVisibility="Disabled"
+                          VerticalScrollBarVisibility="Visible">
+                    <!-- Thiết lập chiều rộng tối thiểu để đảm bảo thanh cuộn ngang xuất hiện -->
+                    <DataGrid.MinWidth>3000</DataGrid.MinWidth>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="STT" Width="50" Binding="{Binding STT}"/>
+                        <DataGridTextColumn Header="Ngày tạo" Width="120" Binding="{Binding NgayTao}"/>
+                        <DataGridTextColumn Header="Mã liên kết" Width="100" Binding="{Binding MaLienKet}"/>
+                        <DataGridTextColumn Header="Họ tên" Width="150" Binding="{Binding HoTen}"/>
+                        <DataGridTextColumn Header="Số CCCD" Width="120" Binding="{Binding SoCCCD}"/>
+                        <DataGridTextColumn Header="Ngày sinh" Width="120" Binding="{Binding NgaySinh}"/>
+                        <DataGridTextColumn Header="Giới tính" Width="80" Binding="{Binding GioiTinh}"/>
+                        <DataGridTextColumn Header="Nhóm máu" Width="100" Binding="{Binding NhomMau}"/>
+                        <DataGridTextColumn Header="Mã Quốc tịch" Width="120" Binding="{Binding MaQuocTich}"/>
+                        <DataGridTextColumn Header="Mã Dân tộc" Width="120" Binding="{Binding MaDanToc}"/>
+                        <DataGridTextColumn Header="Mã nghề nghiệp" Width="120" Binding="{Binding MaNgheNghiep}"/>
+                        <DataGridTextColumn Header="Địa chỉ" Width="200" Binding="{Binding DiaChi}"/>
+                        <DataGridTextColumn Header="Mã tỉnh cư trú" Width="120" Binding="{Binding MaTinhCuTru}"/>
+                        <DataGridTextColumn Header="Mã huyện cư trú" Width="120" Binding="{Binding MaHuyenCuTru}"/>
+                        <DataGridTextColumn Header="Mã xã cư trú" Width="120" Binding="{Binding MaXaCuTru}"/>
+                        <DataGridTextColumn Header="Điện thoại" Width="120" Binding="{Binding DienThoai}"/>
+                        <DataGridTextColumn Header="Mã thẻ BHYT" Width="120" Binding="{Binding MaTheBHYT}"/>
+                        <DataGridTextColumn Header="Mã ĐKBĐ" Width="100" Binding="{Binding MaDKBD}"/>
+                        <DataGridTextColumn Header="GT thẻ từ" Width="120" Binding="{Binding GTTheTu}"/>
+                        <DataGridTextColumn Header="GT thẻ đến" Width="120" Binding="{Binding GTTheDen}"/>
+                        <DataGridTextColumn Header="Ngày miễn CCT" Width="120" Binding="{Binding NgayMienCCT}"/>
+                        <DataGridTextColumn Header="Lý do vào viện" Width="150" Binding="{Binding LyDoVaoVien}"/>
+                        <DataGridTextColumn Header="Lý do vào nội trú" Width="150" Binding="{Binding LyDoVaoNoiTru}"/>
+                        <DataGridTextColumn Header="Mã lý do vào nội trú" Width="150" Binding="{Binding MaLyDoVaoNoiTru}"/>
+                        <DataGridTextColumn Header="Chẩn đoán vào" Width="150" Binding="{Binding ChanDoanVao}"/>
+                        <DataGridTextColumn Header="Chẩn đoán ra viện" Width="150" Binding="{Binding ChanDoanRaVien}"/>
+                        <DataGridTextColumn Header="Mã bệnh chính" Width="120" Binding="{Binding MaBenhChinh}"/>
+                        <DataGridTextColumn Header="Mã bệnh kèm theo" Width="150" Binding="{Binding MaBenhKemTheo}"/>
+                        <DataGridTextColumn Header="Mã bệnh YHCT" Width="120" Binding="{Binding MaBenhYHCT}"/>
+                        <DataGridTextColumn Header="Mã PTTT Quốc tế" Width="150" Binding="{Binding MaPTTTQuocTe}"/>
+                        <DataGridTextColumn Header="Mã đối tượng KCB" Width="150" Binding="{Binding MaDoiTuongKCB}"/>
+                        <DataGridTextColumn Header="Mã nơi đi" Width="100" Binding="{Binding MaNoiDi}"/>
+                        <DataGridTextColumn Header="Mã nơi đến" Width="100" Binding="{Binding MaNoiDen}"/>
+                        <DataGridTextColumn Header="Mã tai nạn" Width="100" Binding="{Binding MaTaiNan}"/>
+                        <DataGridTextColumn Header="Ngày vào" Width="120" Binding="{Binding NgayVao}"/>
+                        <DataGridTextColumn Header="Ngày vào nội trú" Width="150" Binding="{Binding NgayVaoNoiTru}"/>
+                        <DataGridTextColumn Header="Ngày ra" Width="120" Binding="{Binding NgayRa}"/>
+                        <DataGridTextColumn Header="Giấy chuyển tuyến" Width="150" Binding="{Binding GiayChuyenTuyen}"/>
+                        <DataGridTextColumn Header="Số ngày điều trị" Width="120" Binding="{Binding SoNgayDieuTri}"/>
+                        <DataGridTextColumn Header="Phương pháp điều trị" Width="150" Binding="{Binding PhuongPhapDieuTri}"/>
+                        <DataGridTextColumn Header="Kết quả điều trị" Width="120" Binding="{Binding KetQuaDieuTri}"/>
+                        <DataGridTextColumn Header="Mã loại ra viện" Width="120" Binding="{Binding MaLoaiRaVien}"/>
+                        <DataGridTextColumn Header="Ghi chú" Width="150" Binding="{Binding GhiChu}"/>
+                        <DataGridTextColumn Header="Ngày thanh toán" Width="120" Binding="{Binding NgayThanhToan}"/>
+                        <DataGridTextColumn Header="Tiền thuốc" Width="100" Binding="{Binding TienThuoc}"/>
+                        <DataGridTextColumn Header="Tiền VTYT" Width="100" Binding="{Binding TienVTYT}"/>
+                        <DataGridTextColumn Header="Tổng chi BV" Width="100" Binding="{Binding TongChiBV}"/>
+                        <DataGridTextColumn Header="Tổng chi BH" Width="100" Binding="{Binding TongChiBH}"/>
+                        <DataGridTextColumn Header="Tiền BNTT" Width="100" Binding="{Binding TienBNTT}"/>
+                        <DataGridTextColumn Header="Tiền BNCCT" Width="100" Binding="{Binding TienBNCCT}"/>
+                        <DataGridTextColumn Header="Tiền BHTT" Width="100" Binding="{Binding TienBHTT}"/>
+                        <DataGridTextColumn Header="Nguồn khác" Width="100" Binding="{Binding NguonKhac}"/>
+                        <DataGridTextColumn Header="Tiền BHTT GDV" Width="120" Binding="{Binding TienBHTTGDV}"/>
+                        <DataGridTextColumn Header="Năm quyết toán" Width="120" Binding="{Binding NamQuyetToan}"/>
+                        <DataGridTextColumn Header="Tháng quyết toán" Width="120" Binding="{Binding ThangQuyetToan}"/>
+                        <DataGridTextColumn Header="Mã loại KCB" Width="100" Binding="{Binding MaLoaiKCB}"/>
+                        <DataGridTextColumn Header="Mã khoa" Width="100" Binding="{Binding MaKhoa}"/>
+                        <DataGridTextColumn Header="Mã CSKCB" Width="100" Binding="{Binding MaCSKCB}"/>
+                        <DataGridTextColumn Header="Mã khu vực" Width="100" Binding="{Binding MaKhuVuc}"/>
+                        <DataGridTextColumn Header="Cân nặng" Width="100" Binding="{Binding CanNang}"/>
+                        <DataGridTextColumn Header="Cân nặng con" Width="100" Binding="{Binding CanNangCon}"/>
+                        <DataGridTextColumn Header="Năm năm liên tục" Width="120" Binding="{Binding NamNamLienTuc}"/>
+                        <DataGridTextColumn Header="Ngày tái khám" Width="120" Binding="{Binding NgayTaiKham}"/>
+                        <DataGridTextColumn Header="Mã HSBA" Width="100" Binding="{Binding MaHSBA}"/>
+                        <DataGridTextColumn Header="Mã TTDV" Width="100" Binding="{Binding MaTTDV}"/>
+                        <DataGridTextColumn Header="Dự phòng" Width="100" Binding="{Binding DuPhong}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </ScrollViewer>
+        </Grid>
+
+        <!-- Nút bổ sung -->
+        <StackPanel Grid.Row="3" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Right"
+                    Margin="0,0,10,10">
+            <Button Content="BC Trùng XML4" 
+                    Background="#0078D7" 
+                    Foreground="White"
+                    Margin="0,0,5,0"/>
+            
+            <Button Content="Thống kê lỗi" 
+                    Background="#0078D7" 
+                    Foreground="White"
+                    Margin="0,0,5,0"/>
+            
+            <Button Content="Chấm công" 
+                    Background="#0078D7" 
+                    Foreground="White"/>
+        </StackPanel>
     </Grid>
 </UserControl>

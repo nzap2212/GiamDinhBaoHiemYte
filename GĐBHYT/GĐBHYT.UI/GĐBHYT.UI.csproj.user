@@ -19,6 +19,9 @@
     <Compile Update="Components\SlideBar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\CapNhatHoSo130.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\mainPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -39,7 +42,13 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Pages\CapNhatHoSo130.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Pages\mainPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Quanlyhoso130.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\adapter_BHYT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4E574E-BC95-4ED9-ADC5-FD852B3E6A3A}|adapter_BHYT\\adapter_BHYT.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\adapter_bhyt\\adapter_bhyt\\services\\googlesheetsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4E574E-BC95-4ED9-ADC5-FD852B3E6A3A}|adapter_BHYT\\adapter_BHYT.csproj|solutionrelative:adapter_bhyt\\services\\googlesheetsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4E574E-BC95-4ED9-ADC5-FD852B3E6A3A}|adapter_BHYT\\adapter_BHYT.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\adapter_bhyt\\adapter_bhyt\\services\\consoleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4E574E-BC95-4ED9-ADC5-FD852B3E6A3A}|adapter_BHYT\\adapter_BHYT.csproj|solutionrelative:adapter_bhyt\\services\\consoleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4E574E-BC95-4ED9-ADC5-FD852B3E6A3A}|adapter_BHYT\\adapter_BHYT.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\adapter_bhyt\\adapter_bhyt\\services\\messageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4E574E-BC95-4ED9-ADC5-FD852B3E6A3A}|adapter_BHYT\\adapter_BHYT.csproj|solutionrelative:adapter_bhyt\\services\\messageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4E574E-BC95-4ED9-ADC5-FD852B3E6A3A}|adapter_BHYT\\adapter_BHYT.csproj|d:\\hospital-t\u0111-ub\\c\u1EA3nh b\u00E1o bhyt\\giamdinhbhyt\\adapter_bhyt\\adapter_bhyt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C4E574E-BC95-4ED9-ADC5-FD852B3E6A3A}|adapter_BHYT\\adapter_BHYT.csproj|solutionrelative:adapter_bhyt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleService.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\adapter_BHYT\\adapter_BHYT\\Services\\ConsoleService.cs",
+              "RelativeDocumentMoniker": "adapter_BHYT\\Services\\ConsoleService.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\adapter_BHYT\\adapter_BHYT\\Services\\ConsoleService.cs",
+              "RelativeToolTip": "adapter_BHYT\\Services\\ConsoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:01:51.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GoogleSheetsService.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\adapter_BHYT\\adapter_BHYT\\Services\\GoogleSheetsService.cs",
+              "RelativeDocumentMoniker": "adapter_BHYT\\Services\\GoogleSheetsService.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\adapter_BHYT\\adapter_BHYT\\Services\\GoogleSheetsService.cs",
+              "RelativeToolTip": "adapter_BHYT\\Services\\GoogleSheetsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:55:13.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageProcessor.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\adapter_BHYT\\adapter_BHYT\\Services\\MessageProcessor.cs",
+              "RelativeDocumentMoniker": "adapter_BHYT\\Services\\MessageProcessor.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\adapter_BHYT\\adapter_BHYT\\Services\\MessageProcessor.cs",
+              "RelativeToolTip": "adapter_BHYT\\Services\\MessageProcessor.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:29:17.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\adapter_BHYT\\adapter_BHYT\\appsettings.json",
+              "RelativeDocumentMoniker": "adapter_BHYT\\appsettings.json",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\C\u1EA3nh b\u00E1o BHYT\\GiamDInhBHYT\\adapter_BHYT\\adapter_BHYT\\appsettings.json",
+              "RelativeToolTip": "adapter_BHYT\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T12:28:56.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

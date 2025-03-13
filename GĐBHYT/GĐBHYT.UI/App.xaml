@@ -8,6 +8,22 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign2.Defaults.xaml" />
             </ResourceDictionary.MergedDictionaries>
+            
+            <!-- Style cho các mục menu -->
+            <Style x:Key="NavItemStyle" TargetType="StackPanel">
+                <Setter Property="Cursor" Value="Hand" />
+                <Setter Property="Margin" Value="0,5,0,5" />
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#3E4E68" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+            
+            <!-- Style cho mục menu đang được chọn -->
+            <Style x:Key="SelectedNavItemStyle" TargetType="StackPanel" BasedOn="{StaticResource NavItemStyle}">
+                <Setter Property="Background" Value="#4E5E78" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

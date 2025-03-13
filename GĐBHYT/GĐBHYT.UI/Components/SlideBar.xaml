@@ -31,7 +31,12 @@
                     </Expander.Header>
                     <StackPanel Orientation="Vertical"
                                 Margin="50 0 0 0">
-                        <StackPanel Orientation="Horizontal">
+                        <StackPanel x:Name="btnQuanLyHoSo130" 
+                                    Orientation="Horizontal" 
+                                    Background="Transparent"
+                                    MouseLeftButtonDown="NavigationItem_Click"
+                                    Tag="QuanLyHoSo130"
+                                    Style="{StaticResource NavItemStyle}">
                             <materialDesign:PackIcon Kind="ArrowRightDropCircle"
                                                      VerticalAlignment="Center" />
                             <TextBlock Foreground="#fff"
@@ -39,13 +44,31 @@
                                        FontSize="14"
                                        Text="Quản lý hồ sơ 130" />
                         </StackPanel>
-                        <StackPanel Orientation="Horizontal">
+                        <StackPanel x:Name="btnCapNhatHoSo130" 
+                                    Orientation="Horizontal"
+                                    Background="Transparent"
+                                    MouseLeftButtonDown="NavigationItem_Click"
+                                    Tag="CapNhatHoSo130"
+                                    Style="{StaticResource NavItemStyle}">
                             <materialDesign:PackIcon Kind="ArrowRightDropCircle"
                                                      VerticalAlignment="Center" />
                             <TextBlock Foreground="#fff"
                                        Padding="10"
                                        FontSize="14"
                                        Text="Cập nhật hồ sơ 130" />
+                        </StackPanel>
+                        <StackPanel x:Name="btnTheoDoi130NoiTru" 
+                                    Orientation="Horizontal"
+                                    Background="Transparent"
+                                    MouseLeftButtonDown="NavigationItem_Click"
+                                    Tag="TheoDoi130NoiTru"
+                                    Style="{StaticResource NavItemStyle}">
+                            <materialDesign:PackIcon Kind="ArrowRightDropCircle"
+                                                     VerticalAlignment="Center" />
+                            <TextBlock Foreground="#fff"
+                                       Padding="10"
+                                       FontSize="14"
+                                       Text="Theo dõi bệnh nhân nội trú" />
                         </StackPanel>
                     </StackPanel>
                 </Expander>
